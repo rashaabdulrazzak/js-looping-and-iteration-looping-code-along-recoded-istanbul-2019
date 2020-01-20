@@ -6,7 +6,7 @@ function writeCards(wrapgifts, str)
 {
   let  msgfift=[];
   for(let i=0;i < wrapgifts.length;i++){
-    srtingr= 'Thank you,'+wrapgifts[i]+"for the wonderful"+ `${str}` + "gift!";
+    srtingr= 'Thank you,'+wrapgifts[i]+" for the wonderful "+ `${str}` + " gift!";
     msgfift.push(`${srtingr}`);  
     console.log(`${srtingr}`);
   }
