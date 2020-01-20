@@ -12,6 +12,8 @@ function writeCards(wrapgifts, str)
   }
   return msgfift;
 }
+myresult =  writeCards(wrapgifts, str);
+
 
 function countDown(num){
     while (num >=0){
