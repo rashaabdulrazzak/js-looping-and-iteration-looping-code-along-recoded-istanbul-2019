@@ -1,12 +1,14 @@
 // Code your solutions in this file
 let wrapgifts =["Ada", "Brendan", "Ali"];
-let str = birthday;
+let str = 'birthday';
+let srtingr = '';
 function writeCards(wrapgifts, str)
 {
   let  msgfift=[];
   for(let i=0;i < wrapgifts.length;i++){
-    msgfift.push(`Thank you, ${wrapgifts[i]}, for the wonderful birthday gift!"`);
-    console.log(`Thank you, ${wrapgifts[i]}, for the wonderful birthday gift!"`);
+    srtingr= 'Thank you,'+wrapgifts[i]+"for the wonderful"+ `${str}` + "gift!";
+    msgfift.push(`${srtingr}`);  
+    console.log(`${srtingr}`);
   }
   return msgfift;
 }
